@@ -1,5 +1,6 @@
 body {
- background: #ccc;   
+ background: #FFFFFF;  
+
 }
 .flip {
   -webkit-perspective: 800;
@@ -31,9 +32,10 @@ body {
 .flip .card .front {
   position: absolute;
   z-index: 1;
-    background: black;
+    background: #32C7B6;
     color: white;
     cursor: pointer;
+    border: 1px solid #32C7B6;
 }
 .flip .card .back {
   -webkit-transform: rotatex(-180deg);
@@ -41,4 +43,17 @@ body {
     background: white;
     color: black;
     cursor: pointer;
+}
+.btn-dark-blue{
+    color:white;
+    background-color:#3F5361
+}
+
+.btn-red{
+    color:white;
+    background-color:#FA2A26;
+}
+
+.custom-h1{
+    font-size:6em;
 }
